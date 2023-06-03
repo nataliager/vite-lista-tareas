@@ -4,7 +4,6 @@ import { createTodoHTML } from "./create-todo-html";
 let element;
 
 /**
- * 
  * @param {String} elementId 
  * @param {Todo} todos 
  */
