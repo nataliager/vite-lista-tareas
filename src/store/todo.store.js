@@ -1,6 +1,6 @@
 import { Todo } from "../todos/models/todo.model";
 
-const Filters = {
+export const Filters = {
     All: 'all',
     Completed : 'Completed',
     Pendig: 'Pending'
@@ -18,7 +18,7 @@ const state = {
 }
 
 const initStore = () => {
-    console.log(state);
+    laodStore();
     console.log('InitStore :))');
 }
 
